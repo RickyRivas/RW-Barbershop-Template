@@ -22,7 +22,7 @@ const navSlide = () => {
 };
 navSlide();
 var swiper = new Swiper(".mySwiper", {
-  spaceBetween: 0,
+  spaceBetween: 30,
   centeredSlides: true,
   autoplay: {
     delay: 2500,

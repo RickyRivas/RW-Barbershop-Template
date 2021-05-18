@@ -107,18 +107,9 @@ html {
   background-position: center center;
 }
 .swiper-2 {
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-
-  background-position: center center;
-  width: 100%;
-  height: 100%;
+  background-color: black;
 }
 .swiper-3 {
-  background-repeat: no-repeat;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
 }
 .swiper-slide-heading {
   display: flex;
