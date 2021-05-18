@@ -55,13 +55,13 @@ html {
     margin: auto;
     width: 100%;
     max-width: 1200px;
-    background-color: darkgray;
-    top: 8vh;
+    height: 100%;
+    top: 6vh;
   }
   .landing-section {
     width: 100%;
     margin: auto;
-    height: 92vh;
+    height: 94vh;
     background-color: white;
   }
   .swiper-slide img {
