@@ -36,6 +36,7 @@ html {
   top: auto;
 }
 .landing-section {
+  position: relative;
   width: 100%;
   height: calc((100vw / 1.8) - 88px);
   margin: auto;
@@ -164,8 +165,6 @@ html {
 }
 .service-whole-card {
   margin: 1.5em;
-  background-image: url(../images/facebook.png);
-  background-size: cover;
 }
 .all-services-cards {
   display: flex;
