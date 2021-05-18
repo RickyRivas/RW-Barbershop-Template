@@ -164,6 +164,8 @@ html {
 }
 .service-whole-card {
   margin: 1.5em;
+  background-image: url(../images/facebook.png);
+  background-size: cover;
 }
 .all-services-cards {
   display: flex;
