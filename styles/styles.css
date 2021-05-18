@@ -11,7 +11,7 @@
 html {
   font-size: 16px;
   background-color: #181818;
-  font-family: "Cinzel", serif;
+  font-family: "Chillax", sans-serif;
 }
 @media screen and (min-width: 320px) {
   html {
@@ -84,7 +84,6 @@ html {
   align-items: center;
 }
 .swiper-slide {
-  /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -102,6 +101,8 @@ html {
   margin: 0;
 }
 .swiper-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/man-barbershop-salon-doing-haircut-beard-trim.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -127,12 +128,13 @@ html {
   display: flex;
   align-items: center;
   flex-direction: column;
+  color: #fff;
 }
 .swiper-btn {
   border: 1px solid goldenrod;
   padding: 0.5em;
   margin: 1em;
-
+  color: #fff;
   background: transparent;
   cursor: pointer;
 }

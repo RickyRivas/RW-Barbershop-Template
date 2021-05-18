@@ -32,10 +32,11 @@ nav {
 .hamburger.hamburger--spin {
   display: none;
 }
-.logo img {
+.logo {
   width: 3em;
   margin: 0;
   font-size: 1.7em;
+  color: #fff;
 }
 .book-btn {
   cursor: pointer;
@@ -56,6 +57,16 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+.social-media-icons {
+  display: none;
+}
+.nav-menu-logo {
+  display: none;
+}
+.nav-icon {
+  display: none;
+}
+
 @media all and (max-width: 1024px) {
   nav {
     position: relative;
@@ -90,10 +101,11 @@ nav {
   .hamburger.hamburger--spin {
     display: none;
   }
-  .logo img {
+  .logo {
     width: 2.5em;
     margin: 0;
     font-size: 1.7em;
+    color: #fff;
   }
   .book-btn {
     cursor: pointer;
@@ -252,11 +264,10 @@ nav {
   }
   .nav-links li {
     opacity: 0;
-    padding: 1em 2em;
+    padding: 1em;
     border-bottom: 1px solid white;
     text-align: center;
     color: #fff;
-    margin: 0.3em;
   }
   .book-btn {
     cursor: pointer;
@@ -307,6 +318,30 @@ nav {
       transform: translateX(0px);
     }
   }
+  .nav-menu-logo {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 2em;
+    color: #fff;
+    margin: auto;
+  }
+  .social-media-icons {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    bottom: 4em;
+
+    padding: 1em;
+  }
+  .nav-icon {
+    display: block;
+    width: 2em;
+  }
 }
 @media screen and (max-width: 425px) {
   body {
@@ -352,11 +387,10 @@ nav {
   }
   .nav-links li {
     opacity: 0;
-    padding: 1em 2em;
+    padding: 1em 1em;
     border-bottom: 1px solid white;
     text-align: center;
     color: #fff;
-    margin: 0.3em;
   }
   .book-btn {
     cursor: pointer;
@@ -373,9 +407,10 @@ nav {
       rgba(0, 0, 0, 0.15) 0px 10px 10px;
   }
 
-  .logo img {
+  .logo {
     margin: 0;
     width: 16vw;
+    color: #fff;
   }
   .is-active {
     transform: translateX(0%);
@@ -386,8 +421,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    bottom: 1em;
 
+    color: #fff;
     padding: 1em;
   }
   .nav-icon {
