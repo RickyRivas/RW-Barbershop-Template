@@ -64,10 +64,6 @@ html {
     height: 94vh;
     background-color: white;
   }
-  .swiper-slide img {
-    width: 100%;
-    height: auto;
-  }
 }
 /* Landing */
 
@@ -105,7 +101,7 @@ html {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url(../images/man-barbershop-salon-doing-haircut-beard-trim.jpg);
 
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
