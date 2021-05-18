@@ -92,7 +92,6 @@ html {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
-  width: 100%;
 }
 .swiper-slide-1-heading h1 {
   margin: 0;
@@ -105,8 +104,6 @@ html {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 100%;
-  height: 100%;
 }
 .swiper-2 {
   background-attachment: fixed;
