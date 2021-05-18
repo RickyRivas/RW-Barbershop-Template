@@ -137,13 +137,12 @@ html {
   display: flex;
   align-items: center;
   flex-direction: column;
-  color: #fff;
 }
 .swiper-btn {
   border: 1px solid goldenrod;
   padding: 0.5em;
   margin: 1em;
-  color: #fff;
+
   background: transparent;
   cursor: pointer;
 }
