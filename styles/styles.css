@@ -43,6 +43,28 @@ html {
   border-bottom: 1px solid black;
   background-color: white;
 }
+.standard-btn {
+  width: 10em;
+  padding: 1em;
+  text-align: center;
+  border-radius: 2em;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.2);
+
+  margin: 1em 0;
+}
+.standard-icon {
+  width: 2em;
+}
+.standard-social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 250px;
+
+  margin: 1em auto;
+}
 /* Reponsive Landing Slideshow */
 @media (max-width: 991.98px) {
   .landing-section {
@@ -116,13 +138,34 @@ html {
   background: transparent;
   cursor: pointer;
 }
+/* Intro Section */
 
+.intro-section {
+  width: 100%;
+}
+.intro-container {
+  max-width: 1200px;
+  padding: 1em;
+  margin: auto;
+}
+.intro-heading {
+  text-align: center;
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em 0;
+}
+.intro-main-img {
+  width: 100%;
+}
 /* Services (home) Page  */
 .services-section {
   width: 100%;
 }
 .services-container {
-  max-width: 1100px;
+  max-width: 1200px;
   padding: 1em;
   margin: auto;
 }
@@ -135,20 +178,10 @@ html {
   align-items: center;
   margin-bottom: 1em;
 }
-.services-btn {
-  width: 10em;
-  padding: 1em;
-  text-align: center;
-  border-radius: 2em;
-  border: none;
-  outline: none;
-  background-color: rgba(0, 0, 0, 0.2);
 
-  margin: 1em 0;
-}
 .services-list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
   width: 100%;
@@ -176,4 +209,9 @@ html {
   align-items: center;
   font: 1.2em;
   font-weight: 800;
+}
+@media all and (max-width: 1024px) {
+  .services-list {
+    justify-content: center;
+  }
 }
