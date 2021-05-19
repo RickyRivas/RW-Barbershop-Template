@@ -98,3 +98,15 @@
     width: 100%;
   }
 }
+.credit {
+  text-align: center;
+  width: 100%;
+}
+.credit p {
+  color: rgba(255, 255, 255, 0.2);
+}
+.credit a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
