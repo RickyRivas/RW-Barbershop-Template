@@ -119,220 +119,56 @@ html {
 
 /* Services (home) Page  */
 .services-section {
-  height: auto;
-
   width: 100%;
 }
 .services-container {
-  margin: auto;
-  padding: 0.5em;
-  background-color: #fff;
+  max-width: 1100px;
   padding: 1em;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  line-height: 2em;
-  max-width: 1000px;
+  margin: auto;
 }
-
 .services-heading {
-  margin: 1em;
-
   text-align: center;
-}
-
-.services-img {
-  margin-top: 1em;
-}
-.service-whole-card {
-  margin: 1.5em;
-}
-.all-services-cards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.card-top {
-  margin: auto;
-  font-size: 14px;
-  font-weight: 100;
-  width: 50%;
-
-  margin-bottom: -4%;
-  padding: 0;
-  border: 1px solid goldenrod;
-  line-height: normal;
-  background-color: #fff;
-  position: relative;
-}
-
-.service-btn {
-  margin: 1em;
-  padding: 0.5em;
-  border: 1px solid goldenrod;
-  background-color: #fff;
-  cursor: pointer;
-  width: 5em;
-}
-.service {
-  line-height: normal;
-  flex: 1 1 auto;
-  width: 300px;
-  max-width: 350px;
-  height: 300px;
-  padding: 1em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  flex-direction: column;
-  border: 1px solid black;
-  border-radius: 5px;
-}
-.service p {
-  margin-top: 0.5em;
-}
-/* Barbers Section */
-.barbers-section {
-  width: 100%;
-  border-top: 1px solid black;
-}
-.barbers-container {
-  border: 1px solid black;
-  margin: auto;
-  padding: 0.5em;
-  background-color: #fff;
-  padding: 1em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  line-height: 2em;
-}
-.barbers-heading {
-  margin: 1em;
-
-  text-align: center;
-}
-.barbers {
+  height: 10em;
   display: flex;
   justify-content: space-around;
+  flex-direction: column;
   align-items: center;
+}
+.services-btn {
+  width: 10em;
+  padding: 1em;
+  text-align: center;
+  border-radius: 2em;
+  border: none;
+  outline: none;
+}
+.services-list {
+  display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
 }
-/* x */
-img {
-  max-width: 85%;
-}
-
-.barber-card-container {
+.service {
   display: flex;
   align-items: center;
-  justify-content: center;
-  height: 100%;
-  background: #444;
-  line-height: 1.5em;
-  margin: 1em;
-}
+  flex: 1 1 auto;
 
-.barber-card {
-  position: relative;
-  background: #333;
+  margin: 0.5em 0.1em;
+  padding: 1em 0;
   min-width: 300px;
-  max-width: 350px;
-  height: 500px;
-  border-radius: 6px;
-  padding: 1em;
-  color: #aaa;
-  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
-  overflow: hidden;
+  max-width: 500px;
 }
-.barber-card__image-container {
-  margin: -2rem -2rem 1rem -2rem;
+.service-icon {
+  width: 3em;
+  margin: 0 0.5em;
 }
-
-.barber-card__line {
-  opacity: 0;
-  animation: LineFadeIn 0.8s 0.8s forwards ease-in;
+.service-topic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
-.barber-card__image {
-  opacity: 0;
-  animation: ImageFadeIn 0.8s 1.4s forwards;
-}
-
-.barber-card__title {
-  color: white;
-  margin-top: 0;
+.service-price {
+  font: 1.2em;
   font-weight: 800;
-  letter-spacing: 0.01em;
-}
-
-.barber-card__content {
-  font-size: 14px;
-  margin-top: -18%;
-  opacity: 0;
-  animation: ContentFadeIn 0.8s 1.6s forwards;
-  z-index: 100;
-}
-
-.barber-card__svg {
-  position: absolute;
-  left: 0;
-  top: 100px;
-}
-
-@keyframes LineFadeIn {
-  0% {
-    opacity: 0;
-    d: path(
-      "M 0 300 Q 0 300 0 300 Q 0 300 0 300 C 0 300 0 300 0 300 Q 0 300 0 300 "
-    );
-    stroke: #fff;
-  }
-  50% {
-    opacity: 1;
-    d: path(
-      "M 0 300 Q 50 300 100 300 Q 250 300 350 300 C 350 300 500 300 650 300 Q 750 300 800 300"
-    );
-    stroke: #888bff;
-  }
-  100% {
-    opacity: 1;
-    d: path(
-      "M -2 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 802 400"
-    );
-    stroke: #545581;
-  }
-}
-
-@keyframes ContentFadeIn {
-  0% {
-    transform: translateY(-1rem);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-@keyframes ImageFadeIn {
-  0% {
-    transform: translate(-0.5rem, -0.5rem) scale(1.05);
-    opacity: 0;
-    filter: blur(2px);
-  }
-  50% {
-    opacity: 1;
-    filter: blur(2px);
-  }
-  100% {
-    transform: translateY(0) scale(1);
-    opacity: 1;
-    filter: blur(0);
-  }
 }
