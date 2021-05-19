@@ -37,3 +37,13 @@ var swiper = new Swiper(".mySwiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+const today = document.querySelector(".todaysDate");
+var d = new Date();
+var n = d.getDay();
+
+if (n === 1 || n === 2) {
+  today.textContent = " OPEN ";
+}
+
+console.log(today);

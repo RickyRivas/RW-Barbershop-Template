@@ -55,7 +55,8 @@ html {
   margin: 1em 0;
 }
 .standard-icon {
-  width: 2em;
+  width: 1.5em;
+  margin-right: 0.5em;
 }
 .standard-social-icons {
   display: flex;
@@ -63,7 +64,7 @@ html {
   align-items: center;
   max-width: 250px;
 
-  margin: 1em auto;
+  margin: 1em;
 }
 /* Reponsive Landing Slideshow */
 @media (max-width: 991.98px) {
@@ -138,29 +139,7 @@ html {
   background: transparent;
   cursor: pointer;
 }
-/* Intro Section */
 
-.intro-section {
-  width: 100%;
-}
-.intro-container {
-  max-width: 1200px;
-  padding: 1em;
-  margin: auto;
-}
-.intro-heading {
-  text-align: center;
-
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  align-items: center;
-  margin: 1em 0;
-}
-.intro-main-img {
-  width: 100%;
-  border-radius: 1em;
-}
 /* Services (home) Page  */
 .services-section {
   width: 100%;
@@ -214,6 +193,40 @@ html {
     justify-content: center;
     flex-wrap: wrap;
   }
+}
+/* Intro Section */
+
+.intro-section {
+  width: 100%;
+}
+.intro-container {
+  max-width: 1200px;
+  padding: 1em;
+  margin: auto;
+}
+.intro-heading {
+  text-align: center;
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em 0;
+}
+.intro-main-img {
+  width: 100%;
+  border-radius: 1em;
+}
+.shop-info-item {
+  display: flex;
+  height: 1.5em;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin: 1em 0;
+}
+.todaysDate {
+  color: green;
+  margin: 0 0.5em;
 }
 /* Testemonials Section */
 .test-section {
