@@ -22,11 +22,11 @@ const navSlide = () => {
 };
 navSlide();
 var swiper = new Swiper(".mySwiper", {
-  spaceBetween: 30,
+  spaceBetween: 0,
   centeredSlides: true,
   autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
+    delay: 3000,
+    disableOnInteraction: true,
   },
   pagination: {
     el: ".swiper-pagination",

@@ -159,6 +159,7 @@ html {
 }
 .intro-main-img {
   width: 100%;
+  border-radius: 1em;
 }
 /* Services (home) Page  */
 .services-section {
@@ -186,9 +187,7 @@ html {
   align-items: center;
   width: 100%;
 }
-.padding {
-  padding: 0.5em;
-}
+
 .service {
   display: flex;
   align-items: center;
@@ -210,8 +209,30 @@ html {
   font: 1.2em;
   font-weight: 800;
 }
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1044px) {
   .services-list {
     justify-content: center;
+    flex-wrap: wrap;
   }
+}
+/* Testemonials Section */
+.test-section {
+  width: 100%;
+}
+.test-container {
+  max-width: 1200px;
+  padding: 1em;
+  margin: auto;
+}
+.test-heading {
+  text-align: center;
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em 0;
+}
+.test-swiper-container {
+  height: 50vh;
 }
