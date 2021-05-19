@@ -233,10 +233,11 @@ html {
 }
 .shop-info-item {
   display: flex;
-
+  text-align: center;
   justify-content: flex-start;
   align-items: flex-end;
   margin: 1em 0;
+  height: 1em;
 }
 .todaysDate {
   margin: 0 0.5em;
