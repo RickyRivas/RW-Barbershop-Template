@@ -234,5 +234,25 @@ html {
   margin: 1em 0;
 }
 .test-swiper-container {
-  height: 50vh;
+  font-size: inherit;
+  padding: 0;
+}
+.test {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+
+  height: 100%;
+}
+.test-context {
+  margin-bottom: 1.5em;
+}
+.test-person {
+  margin: 2em;
+}
+.test-img {
+  width: 4em;
+  border-radius: 50%;
 }
