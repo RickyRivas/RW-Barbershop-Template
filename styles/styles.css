@@ -195,7 +195,14 @@ html {
   }
 }
 /* Intro Section */
+@media all and (max-width: 768px) {
+  .shop-info {
+    display: flex;
+    flex-direction: column;
 
+    margin: 1em 0;
+  }
+}
 .intro-section {
   width: 100%;
 }
@@ -217,6 +224,13 @@ html {
   width: 100%;
   border-radius: 1em;
 }
+.shop-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1em 0;
+}
 .shop-info-item {
   display: flex;
   height: 1.5em;
@@ -225,7 +239,6 @@ html {
   margin: 1em 0;
 }
 .todaysDate {
-  color: green;
   margin: 0 0.5em;
 }
 /* Testemonials Section */

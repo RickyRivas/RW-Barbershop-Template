@@ -38,12 +38,21 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
-const today = document.querySelector(".todaysDate");
 var d = new Date();
 var n = d.getDay();
 
-if (n === 1 || n === 2) {
-  today.textContent = " OPEN ";
+let today = document.querySelector(".todaysDate");
+
+let closedText = "CLOSED";
+
+let openText = "OPEN";
+
+if (n === 1 || n === 2 || n === 3 || n === 4 || n === 5 || n === 6) {
+  today.textContent = openText;
+  today.style.color = "green";
+} else {
+  today.textContent = closedText;
+  today.style.color = "red";
 }
 
 console.log(today);
