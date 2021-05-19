@@ -268,7 +268,7 @@ html {
 .test {
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
   text-align: center;
   flex-direction: column;
 
