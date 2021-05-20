@@ -1,4 +1,10 @@
 /* STYLES SPECIFIC TO FOOTER  */
+:root {
+  --mainbg-color: #f5f0ed;
+  --primary-color: #dcdcdc;
+  --standard-gold: #d5b980;
+  --white-smoke: #f4f4f4;
+}
 .footer {
   width: 100%;
   position: relative;
@@ -103,10 +109,10 @@
   width: 100%;
 }
 .credit p {
-  color: rgba(255, 255, 255, 0.2);
+  color: #999;
 }
 .credit a {
-  color: #fff;
+  color: var(--standard-gold);
   text-decoration: none;
   cursor: pointer;
 }
