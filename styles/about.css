@@ -13,7 +13,7 @@
 html {
   font-size: 16px;
 
-  font-family: "Chillax", sans-serif;
+  font-family: "Gambetta", serif;
 }
 @media screen and (min-width: 320px) {
   html {
@@ -31,7 +31,6 @@ html {
   padding: 0;
   margin: auto;
   width: 100%;
-
   background-color: #fff;
 }
 
