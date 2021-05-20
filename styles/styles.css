@@ -122,11 +122,15 @@ h2 {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
+  width: auto;
 }
 .swiper-slide-1-heading h1 {
   margin: 0;
 }
 .swiper-1 {
+  background-image: url(../images/man-barbershop-salon-doing-haircut-beard-trim.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 .swiper-2 {
 }
@@ -139,9 +143,9 @@ h2 {
 }
 .swiper-btn {
   border: 1px solid goldenrod;
-  padding: 0.5em;
+  padding: 1em;
   margin: 1em;
-
+  border-radius: 0.5em;
   background: transparent;
   cursor: pointer;
 }
