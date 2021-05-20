@@ -1,0 +1,94 @@
+/* Roots */
+:root {
+  --mainbg-color: #f5f0ed;
+  --primary-color: #dcdcdc;
+  --standard-gold: #d5b980;
+  --white-smoke: #f4f4f4;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+
+  font-family: "Chillax", sans-serif;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 22px;
+  }
+}
+/* Main Container CSS */
+.main-container {
+  position: relative;
+  padding: 0;
+  margin: auto;
+  width: 100%;
+
+  background-color: #fff;
+}
+
+.barbershop-landing {
+  position: relative;
+  width: 100%;
+  height: calc((100vw / 1.8) - 88px);
+  margin: auto;
+  border-bottom: 1px solid black;
+  background-color: white;
+}
+/* Reponsive Landing Slideshow */
+@media (max-width: 991.98px) {
+  .landing-section {
+    height: calc(100vw * 1.3);
+  }
+}
+@media all and (max-width: 768px) {
+  .main-container {
+    position: relative;
+    padding: 0;
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    position: absolute;
+    top: 6vh;
+  }
+  .barbershop-landing {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    height: 75vh;
+    background-color: white;
+    border: 0;
+    background-image: url(../images/pexels-cottonbro-3998418.jpg);
+    background-size: cover;
+  }
+}
+/* Barbershop Section */
+.barbershop-section {
+  width: 100%;
+}
+.barbershop-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1em;
+}
+.barbershop-heading {
+  text-align: center;
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em 0;
+}
+.barber-container-img {
+  width: 100%;
+}
