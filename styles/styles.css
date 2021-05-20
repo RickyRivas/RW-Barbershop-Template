@@ -133,8 +133,14 @@ h2 {
   background-size: cover;
 }
 .swiper-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/pexels-thgusstavo-santana-2521978.jpg);
+  background-size: cover;
 }
 .swiper-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/pexels-cottonbro-3992862.jpg);
+  background-size: cover;
 }
 .swiper-slide-heading {
   display: flex;
