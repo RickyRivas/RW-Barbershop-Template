@@ -42,6 +42,11 @@ html {
   margin: auto;
   border-bottom: 1px solid black;
   background-color: white;
+  background-image: url(../images/pexels-cottonbro-3998418.jpg);
+  background-size: cover;
+}
+h2 {
+  color: var(--standard-gold);
 }
 /* Reponsive Landing Slideshow */
 @media (max-width: 991.98px) {
@@ -91,4 +96,61 @@ html {
 }
 .barber-container-img {
   width: 100%;
+}
+/* Barbers About */
+.barbers-section {
+  width: 100%;
+  background-color: var(--white-smoke);
+}
+.barbers-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1em;
+}
+.barbers-container-heading {
+  text-align: center;
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em 0;
+}
+.barbers {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.barber-box {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 350px;
+  margin: 0.5em 1em;
+  flex: 1 1 auto;
+}
+.barber {
+  border-radius: 0.5em;
+  width: 325px;
+  height: 450px;
+}
+.barber-1 {
+  background-image: url(../images/pexels-thgusstavo-santana-2775269.jpg);
+  background-size: cover;
+}
+.barber-2 {
+  background-image: url(../images/pexels-thgusstavo-santana-2076930.jpg);
+  background-size: cover;
+}
+.barber-3 {
+  background-image: url(../images/pexels-thgusstavo-santana-2775272.jpg);
+  background-size: cover;
+}
+.barber-4 {
+  background-image: url(../images/pexels-thgusstavo-santana-2849402.jpg);
+  background-size: cover;
 }
