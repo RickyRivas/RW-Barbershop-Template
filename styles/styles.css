@@ -213,6 +213,9 @@ h2 {
     margin: 1em 0;
     padding: 1em;
   }
+  .intro-heading {
+    padding: 1em;
+  }
 }
 /* Services (home) Page  */
 .services-section {
