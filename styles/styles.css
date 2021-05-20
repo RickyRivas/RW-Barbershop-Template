@@ -128,7 +128,8 @@ h2 {
   margin: 0;
 }
 .swiper-1 {
-  background-image: url(../images/man-barbershop-salon-doing-haircut-beard-trim.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/man-barbershop-salon-doing-haircut-beard-trim.jpg);
   background-size: cover;
 }
 .swiper-2 {
@@ -139,6 +140,7 @@ h2 {
   display: flex;
   align-items: center;
   flex-direction: column;
+  color: #fff;
 }
 .swiper-btn {
   border: 1px solid goldenrod;
@@ -147,6 +149,7 @@ h2 {
   border-radius: 0.5em;
   background: transparent;
   cursor: pointer;
+  color: #fff;
 }
 /* Intro Section */
 
