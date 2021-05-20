@@ -198,8 +198,6 @@ h2 {
 }
 .todaysDate {
   margin: 0 0.5em;
-  font-size: 1.2em;
-  font-weight: 800;
 }
 @media all and (max-width: 768px) {
   .shop-info {

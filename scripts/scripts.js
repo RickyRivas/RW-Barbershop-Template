@@ -43,11 +43,9 @@ var n = d.getDay();
 
 let today = document.querySelector(".todaysDate");
 
-greenText = " 'til 6pm";
+let closedText = "closed.";
 
-let closedText = "CLOSED";
-
-let openText = "OPEN";
+let openText = "open until 8pm.";
 
 if (n === 1 || n === 2 || n === 3 || n === 4 || n === 5 || n === 6) {
   today.textContent = openText;
