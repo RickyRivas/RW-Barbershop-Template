@@ -2,6 +2,7 @@
 :root {
   --mainbg-color: #f5f0ed;
   --primary-color: #dcdcdc;
+  --white-smoke: #f4f4f4;
 }
 * {
   margin: 0;
@@ -87,6 +88,7 @@ html {
     margin: auto;
     height: 94vh;
     background-color: white;
+    border: 0;
   }
 }
 /* Landing */
@@ -139,10 +141,79 @@ html {
   background: transparent;
   cursor: pointer;
 }
+/* Intro Section */
 
+.intro-section {
+  width: 100%;
+}
+.intro-container {
+  max-width: 1200px;
+  padding: 1em;
+  margin: auto;
+}
+.intro-heading {
+  text-align: center;
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em 0;
+}
+.intro-main-img {
+  width: 100%;
+  border-radius: 0.5em;
+}
+.shop-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 1em 0;
+}
+.shop-info-item {
+  display: flex;
+  text-align: center;
+  justify-content: flex-start;
+  align-items: flex-end;
+
+  margin: 1em 0;
+  height: 1em;
+}
+.todaysDate {
+  margin: 0 0.5em;
+  font-size: 1.2em;
+  font-weight: 800;
+}
+@media all and (max-width: 768px) {
+  .shop-info {
+    display: flex;
+    flex-direction: column;
+
+    margin: 1em 0;
+  }
+  .intro-main-img {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    border-radius: unset;
+  }
+  .intro-container {
+    padding: 0;
+  }
+  .shop-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 1em 0;
+    padding: 1em;
+  }
+}
 /* Services (home) Page  */
 .services-section {
   width: 100%;
+  background-color: var(--white-smoke);
 }
 .services-container {
   max-width: 1200px;
@@ -186,7 +257,7 @@ html {
   justify-content: space-between;
   align-items: center;
   font: 1.2em;
-  font-weight: 800;
+  font-weight: bolder;
 }
 @media all and (max-width: 1044px) {
   .services-list {
@@ -194,56 +265,7 @@ html {
     flex-wrap: wrap;
   }
 }
-/* Intro Section */
-@media all and (max-width: 768px) {
-  .shop-info {
-    display: flex;
-    flex-direction: column;
 
-    margin: 1em 0;
-  }
-}
-.intro-section {
-  width: 100%;
-}
-.intro-container {
-  max-width: 1200px;
-  padding: 1em;
-  margin: auto;
-}
-.intro-heading {
-  text-align: center;
-
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  align-items: center;
-  margin: 1em 0;
-}
-.intro-main-img {
-  width: 100%;
-  border-radius: 1em;
-}
-.shop-info {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: flex-start;
-  margin: 1em 0;
-}
-.shop-info-item {
-  display: flex;
-  text-align: center;
-  justify-content: flex-start;
-  align-items: flex-end;
-  margin: 1em 0;
-  height: 1em;
-}
-.todaysDate {
-  margin: 0 0.5em;
-  font-size: 1.2em;
-  font-weight: 800;
-}
 /* Testemonials Section */
 .test-section {
   width: 100%;
