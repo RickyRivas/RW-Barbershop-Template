@@ -157,6 +157,26 @@ h2 {
   cursor: pointer;
   color: #fff;
 }
+@media all and (min-width: 1000px) {
+  .swiper-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../images/man-barbershop-salon-doing-haircut-beard-trim.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .swiper-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../images/pexels-thgusstavo-santana-2521978.jpg);
+    background-size: cover;
+    background-position: 50% 45%;
+  }
+  .swiper-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../images/pexels-cottonbro-3992862.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+}
 /* Css Keyframe ZOOM OUT */
 
 /* Intro Section */
