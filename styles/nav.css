@@ -31,9 +31,12 @@ nav {
   list-style: none;
   padding: 5px;
 }
+.nav-links li:hover {
+  text-decoration: underline;
+}
 .nav-links a {
   text-decoration: none;
-  color: var(--standard-gold);
+  color: #fff;
 }
 
 .hamburger.hamburger--spin {
