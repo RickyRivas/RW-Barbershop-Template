@@ -43,6 +43,7 @@ html {
   background-color: white;
   background-image: url(../images/pexels-cottonbro-3998418.jpg);
   background-size: cover;
+  background-position: 50% 40%;
 }
 h2 {
   color: var(--standard-gold);
